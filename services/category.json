@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "All Products"
+  },
+  {
+    "id": 2,
+    "name": "Web App"
+  },
+  {
+    "id": 3,
+    "name": "Mobile App"
+  },
+  {
+    "id": 4,
+    "name": "Web Template"
+  },
+  {
+    "id": 5,
+    "name": "Illustration"
+  },
+  {
+    "id": 6,
+    "name": "3d Illustration"
+  },
+  {
+    "id": 7,
+    "name": "Icon"
+  }
+]
