@@ -33,7 +33,7 @@ const filteredResources = computed(() => {
 </script>
 
 <template>
-  <div class="min-h-screen bg-gray-100 p-10 dark:bg-gray-900">
+  <div class="min-h-screen bg-gray-100 p-5 dark:bg-gray-900 sm:p-10">
     <Title>Design Collections</Title>
     <TheHeader />
 
@@ -42,33 +42,33 @@ const filteredResources = computed(() => {
     >
       <section class="my-10 space-y-10 text-center">
         <div class="space-y-3">
-          <h4 class="sm:text-md text-sm font-medium text-gray-500">
+          <h4 class="text-sm font-medium text-gray-500 sm:text-base">
             Download resources for almost all design projects
           </h4>
           <h2 class="text-2xl font-bold sm:text-3xl">
             Design resources for all your ideas
           </h2>
         </div>
-        <div class="space-y-4 sm:space-y-0">
+        <div class="flex justify-center">
           <input
             type="text"
             placeholder="Search by anything..."
-            class="w-full rounded border-2 bg-gray-200 px-4 py-2 shadow outline-none focus:border-indigo-500 dark:border-gray-500 dark:bg-gray-800 sm:w-[600px] sm:rounded-r-none"
+            class="w-full rounded-l border-2 bg-gray-200 px-4 py-2 shadow outline-none focus:border-indigo-500 dark:border-gray-500 dark:bg-gray-800 sm:w-[600px]"
           />
           <button
-            class="w-full rounded bg-indigo-500 px-4 py-2.5 text-xs font-semibold text-white shadow sm:w-fit sm:rounded-l-none sm:rounded-r sm:text-base"
+            class="w-16 rounded-r bg-indigo-500 px-4 py-2.5 text-xs font-semibold text-white shadow sm:w-fit sm:text-base"
           >
             <font-awesome-icon
               icon="magnifying-glass"
               class="mr-2"
             ></font-awesome-icon>
-            <span>Search</span>
+            <span class="hidden sm:inline-flex">Search</span>
           </button>
         </div>
       </section>
 
       <!-- cards -->
-      <div class="mx-auto max-w-6xl space-y-10 p-10">
+      <div class="mx-auto w-full space-y-10 sm:max-w-6xl sm:p-10">
         <div class="space-x-0 space-y-4 text-center sm:space-x-5 sm:space-y-0">
           <ChipList
             v-for="productCategory in categoryWithCount"

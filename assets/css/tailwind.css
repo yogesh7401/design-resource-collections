@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Montserrat', sans-serif;
+    @apply transition-[background-color] duration-300;
 }
 
 @tailwind base;
