@@ -1,14 +1,14 @@
-import { defineNuxtConfig } from "nuxt3";
+import { defineNuxtConfig } from 'nuxt3'
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/color-mode"],
+  modules: ['@nuxtjs/color-mode'],
   colorMode: {
-    classSuffix: "",
+    classSuffix: ''
   },
-  buildModules: ["@nuxtjs/tailwindcss", "@vueuse/nuxt", "@pinia/nuxt"],
+  buildModules: ['@nuxtjs/tailwindcss', '@vueuse/nuxt', '@pinia/nuxt'],
   tailwindcss: {
-    cssPath: "~/assets/css/tailwind.css",
+    cssPath: '~/assets/css/tailwind.css'
     //   exposeConfig: true,
-  },
-});
+  }
+})

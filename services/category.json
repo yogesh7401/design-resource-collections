@@ -4,6 +4,10 @@
     "name": "All Products"
   },
   {
+    "id": 7,
+    "name": "Icons"
+  },
+  {
     "id": 2,
     "name": "Web App"
   },
@@ -12,19 +16,11 @@
     "name": "Mobile App"
   },
   {
-    "id": 4,
-    "name": "Web Template"
-  },
-  {
     "id": 5,
-    "name": "Illustration"
+    "name": "Illustrations"
   },
   {
     "id": 6,
-    "name": "3d Illustration"
-  },
-  {
-    "id": 7,
-    "name": "Icon"
+    "name": "Stock Photos"
   }
 ]
