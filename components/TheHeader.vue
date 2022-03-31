@@ -27,14 +27,14 @@ const changeTheme = (color: string) => {
       <div class="flex items-center">
         <NuxtLink
           :to="{ name: 'index' }"
-          class="rounded-full bg-white px-4 py-2 text-xl font-bold hover:shadow-xl"
+          class="space-x-2 rounded-full bg-white px-4 py-2 text-xl font-bold hover:shadow-xl"
         >
           <font-awesome-icon
             icon="biohazard"
             class="h-6 w-6 text-red-500"
             v-cloak
           />
-          Design Resource Collections
+          <span>Design Resource Collections</span>
         </NuxtLink>
       </div>
       <div class="flex items-center space-x-10">
@@ -83,14 +83,11 @@ const changeTheme = (color: string) => {
         </div>
         <a
           :href="globalStore.author.github"
-          class="rounded bg-gray-800 px-4 py-2 font-medium text-white shadow"
+          class="flex items-center space-x-2 rounded bg-gray-800 px-4 py-2 font-medium text-white shadow"
           target="_blank"
         >
-          <font-awesome-icon
-            :icon="['fab', 'github']"
-            class="w-4s hs-4s mr-2"
-          />
-          Github</a
+          <font-awesome-icon :icon="['fab', 'github']" class="mr-2" />
+          <div>Github</div></a
         >
       </div>
     </div>
