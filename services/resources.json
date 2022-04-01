@@ -135,5 +135,21 @@
     "description": "306,440 Templates Ready for Commercial Use / Android Templates",
     "link": "https://www.uplabs.com/templates/ios",
     "license": "Freemium"
+  },
+  {
+    "id": 18,
+    "category": "Illustrations",
+    "title": "unDraw",
+    "description": "A constantly updated design project with beautiful SVG images that you can use completely free and without attribution.",
+    "link": "https://undraw.co/illustrations",
+    "license": "Free"
+  },
+  {
+    "id": 19,
+    "category": "Icons",
+    "title": "BrandEPS",
+    "description": "BrandEPS is a database of brand logos and icons. logos and icons can download in vector EPS, SVG, JPG and PNG file formats,
+    "link": "https://brandeps.com/",
+    "license": "Free"
   }
 ]
